@@ -153,7 +153,7 @@ ctx.fillStyle = "white";
 function draw(){
 	
 
-	ctx.drawImage(bgImg,0,0);
+	ctx.drawImage(map,0,0);
 	for(var i=0; i<enemies.length; i++){
 		if (enemies[i].hp<=0) {
 			enemies.splice(i,1);
