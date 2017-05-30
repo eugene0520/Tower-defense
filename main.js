@@ -95,7 +95,7 @@ function Cannonball () {
 var enemyPath = [
     {x:64, y:320},
     {x:160, y:320},
-    {x:175, y:352},
+    {x:172, y:352},
     {x:192, y:352},
     {x:192, y:384},
     {x:256, y:384},
@@ -153,7 +153,7 @@ ctx.fillStyle = "white";
 function draw(){
 	
 
-	ctx.drawImage(map,0,0);
+	ctx.drawImage(mapImg,0,0);
 	for(var i=0; i<enemies.length; i++){
 		if (enemies[i].hp<=0) {
 			enemies.splice(i,1);
