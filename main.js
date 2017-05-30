@@ -95,7 +95,7 @@ function Cannonball () {
 var enemyPath = [
     {x:64, y:320},
     {x:160, y:320},
-    {x:170, y:352},
+    {x:175, y:352},
     {x:192, y:352},
     {x:192, y:384},
     {x:256, y:384},
@@ -145,7 +145,7 @@ $("#game-canvas").click(function(){
     }
 });
 // 設定接下來印出的字體的大小及字型
-ctx.font = "24px Snap ITC";
+ctx.font = "24px";
 
 // 設定接下來印出的字體的顏色
 ctx.fillStyle = "white";
