@@ -28,19 +28,6 @@ var enemyPath = [
     {x:544, y:320},
     {x:544, y:384}
 ];
-//----------OK---------//
-function OK(){
-	var a = ( (cursor.x >= 32 && cursor.x <= 640 - 32) && (cursor.y >= 32 && cursor.y <= 480 - 32) );
-	var b = !( (cursor.x >= 32*9 && cursor.x <= 32*14) && (cursor.y >= 32 && cursor.y <= 32*4) );
-	var c = !( (cursor.x >= 32*15 && cursor.x <= 640 - 32) && (cursor.y >= 32 && cursor.y <= 32*5) );
-	var d = ( (cursor.x >= 32 && cursor.x <= 32*2) && (cursor.y >= 480 - 32 && cursor.y <= 480) );
-	//console.log(a+" "+b+" "+c+" "+d+" ");
-	if (a & b & c | d) {
-		return true;
-	}else {
-		return false;
-	}
-}
 //-----isCollided-----//
 function isCollided(pointX,pointY,targetX,targetY,w,h){
 	var ok;
