@@ -301,4 +301,5 @@ function GAME_OVER(){
 // 等待一秒再執行 draw
 //setTimeout( draw, 1000);
 
+
 var intervalID = setInterval(draw,1000 / FPS);
