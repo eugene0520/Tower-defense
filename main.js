@@ -14,7 +14,7 @@ var CLOCK = 0,ENEMY_TIME = FPS;
 var enemyPath = [
     {x:64, y:320},
     {x:160, y:320},
-    {x:172, y:352},
+    {x:175, y:352},
     {x:192, y:352},
     {x:192, y:384},
     {x:256, y:384},
@@ -280,8 +280,8 @@ function draw(){
 			}
 		}
 	}
-	ctx.fillText( "HP="+hp, 10, 10);
-	ctx.fillText( "SCORE="+score, 10, 20);
+	ctx.fillText( "HP="+hp, 10, 30);
+	ctx.fillText( "SCORE="+score, 10, 60);
 	if(hp <= 0){
 		GAME_OVER();
 	}
